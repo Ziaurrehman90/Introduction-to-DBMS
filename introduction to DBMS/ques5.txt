@@ -1,0 +1,12 @@
+There are two main types of classification in DBMS:
+
+Physical Classification: This refers to the organization of data on storage media, such as hard drives or solid-state drives. Common types of physical classification include:
+
+Heap files: Data is stored in a continuous block of storage without any specific order.
+Clustered files: Data is stored in the same order as the primary key, improving performance for queries that involve the primary key.
+Indexed files: An index is created for one or more columns, allowing for faster searches on those columns.
+Logical Classification: This refers to the organization of data based on its logical structure and relationships. Common types of logical classification include:
+
+Tables: Data is organized in rows and columns, with each row representing a record and each column representing a field.
+Views: A virtual table that is based on one or more underlying tables. Views can be used to simplify complex queries or present data in a specific way.
+Schemas: A collection of tables and other database objects that are related to each other. Schemas help to organize and manage the database.

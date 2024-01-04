@@ -1,0 +1,9 @@
+Data Redundancy and Inconsistency: Duplicated files across folders lead to wasted storage and inconsistent data, creating difficulty in maintaining accuracy and ensuring all users have the latest version. DBMS tackles this by storing data in tables with relationships, eliminating redundancy and ensuring consistency.
+
+Limited Data Relationships: FBMS primarily handle individual files, making it difficult to represent complex relationships between data pieces. This hinders insights and efficient retrieval when data spans multiple files. DBMS addresses this by allowing you to define relationships between tables, enabling you to model complex data structures.
+
+Lack of Data Integrity: FBMS often lack safeguards against accidental or malicious data alteration, compromising data integrity and trust. DBMS enforces data integrity rules and constraints, such as data types and unique values, to prevent invalid data from being entered.
+
+Scalability Bottlenecks: As data volume grows, searching and managing files becomes cumbersome. Performance degrades, and file systems struggle to handle large data sets efficiently. DBMS offers improved scalability and performance, allowing you to efficiently manage large volumes of data.
+
+Limited Security and Collaboration: Sharing and securing data in FBMS can be challenging, especially with multiple users accessing files. Permissions management and version control become complex, raising security concerns. DBMS provides granular access control and audit trails, ensuring data security and integrity.

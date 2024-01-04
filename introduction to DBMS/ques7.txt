@@ -1,0 +1,8 @@
+There are three main schema architectures:
+
+One-tier schema architecture: This is the simplest type of schema architecture, in which all of the data is stored in a single database. This architecture is easy to understand and manage, but it can be difficult to scale and can become performance bottlenecks as the amount of data grows. 
+
+
+
+
+Two-tier schema architecture: This architecture separates the data into two tiers: a front-end tier and a back-end tier. The front-end tier typically consists of a web application or other user interface that interacts with the database. The back-end tier consists of the database itself and any other middleware that is needed to support the database. This architecture can improve performance and scalability, but it can also be more complex to manage than a one-tier architecture. 
